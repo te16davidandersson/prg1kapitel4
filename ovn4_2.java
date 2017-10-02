@@ -20,7 +20,7 @@ public class ovn4_2{
 		double biljettpris = Double.parseDouble(biljettpriss);
 
 		double yearbiljettpris = biljettpris * antal * 52;
-		if (arskortspris < yearbiljettpris){ JOptionPane.showMessageDialog(null, "Du b" + o1 + "r k" + o1 + "pa biljett varje g" + a1 + "ng du far dit");
+		if (arskortspris > yearbiljettpris){ JOptionPane.showMessageDialog(null, "Du b" + o1 + "r k" + o1 + "pa biljett varje g" + a1 + "ng du far dit");
 			}
 			else{
 				JOptionPane.showMessageDialog(null, "Du b" + o1 + "r k" + o1 + "pa " + a1 + "rskort");
